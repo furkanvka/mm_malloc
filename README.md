@@ -13,15 +13,21 @@ Amacım heap memory’nin **teorik çalışma mantığını bildiğim halde**, b
 ## 📂 Proje Yapısı
 
 custom-malloc/
+
 │── src/
+
 │ └── my_malloc.c
+
 │── include/
+
 │ └── my_malloc.h
+
 │── examples/
 │ └── simple_usage.c
-│── README.md
-│── Makefile
 
+│── README.md
+
+│── Makefile
 
 ## 🔧 Derleme ve Çalıştırma
 ```bash
