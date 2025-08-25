@@ -27,7 +27,7 @@ custom-malloc/
 ```bash
 make
 ./example
-
+```
 📌 Örnek Kullanım
 
 #include "my_malloc.h"
