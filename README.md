@@ -22,7 +22,8 @@ custom-malloc/
 
 │ └── my_malloc.h
 
-│── examples/
+│── test/
+
 │ └── simple_usage.c
 
 │── README.md
@@ -66,3 +67,4 @@ Bu proje sayesinde:
     Bellek parçalanmasının (fragmentation) neden oluştuğunu
 
 deneyimleme fırsatı buldum.
+
