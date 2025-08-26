@@ -12,4 +12,4 @@ include_directories(include)
 # add_executable(my_malloc_test src/my_malloc.c test/simple_usage.c)
 
 # Eğer test dosyanızın adı test.c ise aşağıdaki gibi kullanın:
-add_executable(my_malloc_test src/my_malloc.c test/simple_usage.c)
+add_executable(example src/my_malloc.c test/simple_usage.c)
