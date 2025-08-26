@@ -37,6 +37,7 @@ make
 ```
 📌 Örnek Kullanım
 
+```c
 #include "my_malloc.h"
 #include <stdio.h>
 
@@ -50,21 +51,7 @@ int main() {
     myfree(arr);
     return 0;
 }
-
+```
 Çıktı:
 
 0 2 4 6 8 10 12 14 16 18
-
-🎯 Neden Bu Projeyi Yaptım?
-
-Heap memory’nin teorik olarak nasıl çalıştığını bilsem de, uygulamada kendi bellek yöneticimi yazarak daha derin bir anlayış kazanmak istedim.
-Bu proje sayesinde:
-
-    Bellek yönetimi algoritmalarının nasıl çalıştığını,
-
-    malloc/free arka planda neler yaptığını,
-
-    Bellek parçalanmasının (fragmentation) neden oluştuğunu
-
-deneyimleme fırsatı buldum.
-
